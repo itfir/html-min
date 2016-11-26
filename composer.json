@@ -1,0 +1,20 @@
+{
+    "name": "fir/html-min",
+    "description": "laravel 输出html代码压缩",
+    "authors": [
+        {
+            "name": "fir",
+            "email": "375312675@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*|5.2.*|5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fir\\HtmlMin\\": "src/"
+        },
+        "files": []
+    }
+}
