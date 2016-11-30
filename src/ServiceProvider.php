@@ -4,7 +4,7 @@ namespace Fir\HtmlMin;
 
 use Illuminate\View\Engines\CompilerEngine;
 
-class ServiceProvider extends Illuminate\Support\ServiceProvider{
+class ServiceProvider extends \Illuminate\Support\ServiceProvider{
 
     public function register() {
         //开发模式下不启用
